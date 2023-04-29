@@ -1,0 +1,32 @@
+@mixin widthAuto($width) {
+    width: $width + px;
+    margin: 0 auto;
+}
+
+@mixin btnMember() {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: #212121;
+    color: #fff;
+    padding: 20px 0;
+}
+
+@mixin headerText() {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 75px;
+}
+
+@mixin btnBlack($width) {
+    display: inline-block;
+    background-color: #222;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+    width: $width + px;
+    text-align: center;
+}

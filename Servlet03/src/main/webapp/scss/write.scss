@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import "color.scss";
+@import "mixin.scss";
+
+input:focus {
+    outline: none;
+}
+
+/* write_area 영역 시작 */
+.write {
+    width: 100%;
+}
+
+.write_inner {
+    @include widthAuto(1200);
+
+    h2 {
+        @include headerText();
+    }
+
+    form {
+        padding-top: 60px;
+        width: 100%;
+
+        .input_title {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #bbb;
+        }
+    }
+}
+
+.btn_area {
+    margin-top: 20px;
+    float: right;
+}
+
+.btn {
+    @include btnBlack(100);
+}
+
+/* CKEditor  */
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 200px;
+}
+
+.ck-content .image {
+    /* block images */
+    max-width: 80%;
+    margin: 20px auto;
+}

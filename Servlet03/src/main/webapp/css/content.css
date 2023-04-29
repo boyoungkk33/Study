@@ -1,0 +1,67 @@
+.content {
+  width: 100%;
+}
+
+.content_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content_inner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+}
+.content_inner table {
+  width: 100%;
+  border-top: 1px solid #212121;
+  margin-top: 70px;
+}
+.content_inner table thead tr th {
+  padding: 15px 0;
+}
+.content_inner table tbody {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.content_inner table tbody tr td.info {
+  font-size: 13px;
+  line-height: 1.3em;
+  padding: 10px 0;
+}
+.content_inner table tbody .text {
+  text-align: center;
+}
+.content_inner table tbody .text td {
+  padding: 70px 0;
+}
+.content_inner .btn_area {
+  text-align: right;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+.content_inner .btn_area .btn_black {
+  display: inline-block;
+  background-color: #222;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: 100px;
+  text-align: center;
+}
+.content_inner ul {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+}
+.content_inner ul li {
+  padding: 10px 0;
+}
+.content_inner ul li strong {
+  color: #212121;
+}
+.content_inner ul li a {
+  color: #212121;
+}/*# sourceMappingURL=content.css.map */

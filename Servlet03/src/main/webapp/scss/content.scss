@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import "color.scss";
+@import "mixin.scss";
+
+.content {
+    width: 100%;
+}
+
+.content_inner {
+    @include widthAuto(1200);
+
+    h2 {
+        @include headerText();
+    }
+
+    table {
+        width: 100%;
+        border-top: 1px solid #212121;
+        margin-top: 70px;
+
+        thead {
+            tr {
+                th {
+                    padding: 15px 0;
+                }
+            }
+        }
+
+        tbody {
+            border-top: 1px solid $line-color;
+            border-bottom: 1px solid $line-color;
+
+            tr {
+                td.info {
+                    font-size: 13px;
+                    line-height: 1.3em;
+                    padding: 10px 0;
+                }
+            }
+
+            .text {
+                text-align: center;
+
+                td {
+                    padding: 70px 0;
+                }
+            }
+        }
+    }
+
+    .btn_area {
+        text-align: right;
+        padding: 20px 0;
+        border-bottom: 1px solid $line-color;
+
+        .btn_black {
+            @include btnBlack(100);
+        }
+    }
+
+    ul {
+        padding: 20px 0;
+        border-bottom: 1px solid $line-color;
+        font-size: 13px;
+
+        li {
+            padding: 10px 0;
+
+            strong {
+                color: #212121;
+            }
+
+            a {
+                color: #212121;
+            }
+        }
+    }
+}

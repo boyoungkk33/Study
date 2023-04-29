@@ -1,0 +1,117 @@
+.search {
+  width: 100%;
+}
+
+.search_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.search_inner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+}
+.search_inner .search_area {
+  padding: 30px 0 40px 0;
+}
+.search_inner .search_area form {
+  width: 40%;
+  margin: 0 auto;
+  border-bottom: 1px solid #222;
+  position: relative;
+}
+.search_inner .search_area form input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+}
+.search_inner .search_area form input:focus {
+  outline: none;
+}
+.search_inner .search_area form a {
+  color: #222;
+  position: absolute;
+  bottom: 4px;
+  right: 5px;
+}
+.search_inner .search_area form a svg {
+  width: 24px;
+  height: 24px;
+}
+.search_inner .paging {
+  padding-top: 20px;
+  position: relative;
+}
+.search_inner .paging .paging_list {
+  text-align: center;
+}
+.search_inner .paging .paging_list li {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+.search_inner .paging .paging_list li a {
+  color: rgb(120, 120, 120);
+}
+.search_inner .paging .paging_list li a:hover {
+  color: #222;
+}
+
+.item {
+  margin-top: 75px;
+}
+
+.item_inner h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.item_inner ul {
+  padding-top: 20px;
+}
+.item_inner li {
+  width: 280px;
+  float: left;
+  margin-right: 26.6px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.item_inner li:nth-child(4n) {
+  margin-right: 0;
+}
+.item_inner li a {
+  color: #222;
+  font-size: 13px;
+}
+.item_inner li a .discount {
+  color: rgb(120, 120, 120);
+  text-decoration: line-through;
+  font-weight: 400;
+  font-size: 13px;
+}
+.item_inner li img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.item_inner li h3 {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.item_inner li .content {
+  padding: 10px 0 20px 0;
+}
+.item_inner li .price {
+  font-weight: bold;
+  font-size: 16px;
+}
+.item_inner li .percent {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}/*# sourceMappingURL=search.css.map */

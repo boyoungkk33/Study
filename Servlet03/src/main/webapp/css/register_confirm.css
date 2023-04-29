@@ -1,0 +1,43 @@
+.register_confirm {
+  width: 100%;
+}
+
+.register_confirm_inner {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register_confirm_inner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+}
+.register_confirm_inner p {
+  padding-top: 30px;
+}
+
+.btn_index {
+  display: inline-block;
+  background-color: #222;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: 100px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+canvas {
+  z-index: 10;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transform: scale(1.1);
+}
+
+.canvasBtn {
+  display: none;
+}/*# sourceMappingURL=register_confirm.css.map */

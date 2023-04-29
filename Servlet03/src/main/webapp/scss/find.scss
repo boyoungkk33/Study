@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import "color.scss";
+@import "mixin.scss";
+
+.find {
+    width: 100%;
+}
+
+.find_inner {
+    @include widthAuto(1200);
+    padding-top: 75px;
+
+    h2 {
+        font-family: 'BebasNeue';
+        text-align: center;
+        font-size: 64px;
+    }
+
+    form {
+        width: 30%;
+        padding: 40px 0;
+        margin: 0 auto;
+
+        .input_box {
+            width: 100%;
+            padding-bottom: 40px;
+            position: relative;
+
+            .title {
+                font-size: 13px;
+            }
+
+            input {
+                width: 100%;
+                border: none;
+                padding: 10px 0 10px 0;
+                border-bottom: 1px solid $line-color;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            .warning_email,
+            .warning_password {
+                position: absolute;
+                color: rgb(251, 67, 67);
+                font-size: 12px;
+                margin-top: 5px;
+                display: none;
+            }
+        }
+
+        .btn_member {
+            @include btnMember();
+        }
+
+        ul {
+            padding-top: 20px;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                padding: 0 14px 0 10px;
+                border-right: 1px solid #ddd;
+
+                &:last-child {
+                    border-right: none;
+                }
+
+                a {
+                    font-size: 13px;
+                    color: #666;
+                }
+            }
+        }
+    }
+}

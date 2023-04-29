@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "color.scss";
+@import "mixin.scss";
+
+.register_confirm {
+    width: 100%;
+}
+
+.register_confirm_inner {
+    @include widthAuto(1200);
+    text-align: center;
+
+    h2 {
+        @include headerText();
+    }
+
+    p {
+        padding-top: 30px;
+    }
+}
+
+.btn_index {
+    @include btnBlack(100);
+
+    margin-top: 30px;
+}
+
+canvas {
+    z-index: 10;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: scale(1.1);
+}
+
+.canvasBtn {
+    display: none;
+}

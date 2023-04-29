@@ -1,0 +1,73 @@
+.mypage {
+  width: 100%;
+}
+
+.mypage_inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+.mypage_inner h2 {
+  font-family: "BebasNeue";
+  text-align: center;
+  font-size: 64px;
+}
+.mypage_inner form {
+  width: 30%;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+.mypage_inner form .input_box {
+  width: 100%;
+  padding-bottom: 40px;
+  position: relative;
+}
+.mypage_inner form .input_box .title {
+  font-size: 13px;
+}
+.mypage_inner form .input_box input {
+  width: 100%;
+  border: none;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.mypage_inner form .input_box input:focus {
+  outline: none;
+}
+.mypage_inner form .input_box .addr_number {
+  width: 30%;
+}
+.mypage_inner form .input_box .input_phone {
+  width: 30%;
+  text-align: center;
+}
+.mypage_inner form .input_box .warning_email,
+.mypage_inner form .input_box .warning_password {
+  position: absolute;
+  color: rgb(251, 67, 67);
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+.mypage_inner form .btn_member {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #212121;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+.red_star {
+  color: red;
+}
+
+.btn_addr {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #666;
+  padding: 10px;
+  font-size: 14px;
+}/*# sourceMappingURL=mypage.css.map */

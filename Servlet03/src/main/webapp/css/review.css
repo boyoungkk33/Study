@@ -1,0 +1,111 @@
+.review {
+  width: 100%;
+}
+
+.review_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.review_inner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+}
+.review_inner form {
+  float: right;
+  font-size: 13px;
+  padding: 60px 0 10px 0;
+}
+.review_inner form label {
+  color: #555;
+}
+.review_inner form .search_bar {
+  display: inline-block;
+}
+.review_inner form .search_bar input {
+  border: 1px solid #ddd;
+  width: 200px;
+  padding: 5px 5px;
+  margin-left: 10px;
+}
+.review_inner form .search_bar input:focus {
+  outline: none;
+}
+.review_inner form .search_bar svg {
+  float: right;
+  width: 24px;
+  height: 27.5px;
+  padding: 5px;
+  color: #555;
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.review_inner table {
+  width: 100%;
+  margin-top: 10px;
+}
+.review_inner table thead {
+  font-weight: bold;
+}
+.review_inner table thead tr {
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #ddd;
+}
+.review_inner table thead th {
+  padding: 20px 0;
+}
+.review_inner table tbody {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+.review_inner table tbody td {
+  vertical-align: middle;
+  padding: 13px 0;
+  border-bottom: 1px solid #ddd;
+}
+.review_inner table tbody td a {
+  color: #555;
+}
+.review_inner table tbody td.td_img img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.review_inner table tbody td.left {
+  text-align: left;
+  padding-left: 10px;
+}
+.review_inner .paging {
+  padding-top: 20px;
+  position: relative;
+}
+.review_inner .paging .paging_list {
+  text-align: center;
+}
+.review_inner .paging .paging_list li {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+.review_inner .paging .paging_list li a {
+  color: rgb(120, 120, 120);
+}
+.review_inner .paging .paging_list li a:hover {
+  color: #222;
+}
+.review_inner .paging .btn_black {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  background-color: #222;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: 100px;
+  text-align: center;
+}/*# sourceMappingURL=review.css.map */

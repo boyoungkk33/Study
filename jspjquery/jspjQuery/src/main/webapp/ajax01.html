@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>제이쿼리활용</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript"> 
+  function fn_server(){
+    $.ajax({
+        type : "get",
+        dataType :"text",
+        async:false,
+        url: "http://127.0.0.1:8090/jspjQuery/ajax01",
+        data: {jq:"제이쿼리 ajax 공부중"},
+        success: function(rpdata, textStatus){
+          $('#message').append(data);
+        },
+           error:function(rpdata,textStatus){
+             alert("서버와 통신에러 발생했습니다.")
+        },
+           complete:function(rpdata,textStatus){
+             alert("서버와 통신완료!!")
+           }        
+         });
+    }
+</script>
+</head>
+<body>
+<input type="button" value="전송하기" onclick="fn_server()">
+<div id="message"></div>
+
+</body>
+</html>

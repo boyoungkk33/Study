@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>제이쿼리활용</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript"> 
+    function addHello() {
+      $('#article').html($('#article').html() +"<p>안녕하세요</p>");
+ }
+
+</script>
+</head>
+<body>
+   <div id="article">
+   </div>
+   <button onclick="addHello()">인사 추가하기</button>
+
+</body>
+</html>

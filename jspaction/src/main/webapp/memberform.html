@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입창</title>
+ <script type="text/javascript">
+          function fn_sendMember(){
+        	  let frmmem=document.forms.frmMember; // form 태그를 선택해야 하므로 "forms." 추가
+        	  let id=frmmem.id.value;
+        	  let pwd=frmmem.pwd.value;
+        	  let name=frmmem.name.value;
+        	  let email=frmmem.email.value;
+        	  if(id.length == 0 || id==""){
+        		  alert("아이디는 필수입니다.");	  
+              }else if(pwd.length ==0 || pwd == ""){
+        		  alert("비밀번호는 필수입니다.");
+              }else if(name.length ==0 || name == ""){
+    		      alert("이름은 필수입니다.");
+    	      }else{
+    	    	 frmmem.method="post";  //전송방법을 지정
+    	    	 frmmem.action="member2.jsp"; //회원가입 창에서 회원정보를 입력 후 전송할 페이지
+    	    	 frmmem.submit(); //서버로 전송
+    	   
+    	     }
+          }
+   </script>
+</head>
+<body>
+   <h2>회원가입 창</h2>
+    <form name="frmMember" method="post"> <!-- method 속성 추가 -->
+     <table>
+      <th>회원가입</th>
+      <tr>
+         <td>아이디</td>
+         <td><input type="text" name="id"></td>
+      </tr>
+      <tr>
+         <td>비밀번호</td>
+         <td><input type="password" name="pwd"></td> <!-- 입력 내용이 보이지 않도록 type 속성 변경 -->
+      </tr>
+      <tr>
+         <td>이름</td>
+         <td><input type="text" name="name"></td>
+      </tr>
+      <tr>
+         <td>이메일</td>
+         <td><input type="text" name="email"></td>
+      </tr>
+    </table>
+         <input type="hidden" name="command" value="addMember">
+         <input type="button" value="회원등록" onclick="fn_sendMember();">
+         <input type="reset" value="다시입력">
+   </form>
+</body>
+</html>

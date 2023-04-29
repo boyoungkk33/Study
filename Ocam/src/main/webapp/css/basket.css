@@ -1,0 +1,85 @@
+.basket {
+  width: 100%;
+}
+
+.basket_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.basket_inner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+}
+.basket_inner table {
+  width: 100%;
+  margin-top: 100px;
+}
+.basket_inner table thead {
+  font-weight: bold;
+}
+.basket_inner table thead tr {
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #ddd;
+}
+.basket_inner table thead th {
+  padding: 20px 0;
+}
+.basket_inner table tbody {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+.basket_inner table tbody td {
+  vertical-align: middle;
+  padding: 13px 0;
+  border-bottom: 1px solid #ddd;
+}
+.basket_inner table tbody td a {
+  color: #555;
+}
+.basket_inner table tbody td .btn_cancel {
+  display: inline-block;
+  background-color: #222;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: 55px;
+  text-align: center;
+}
+.basket_inner table tbody td.td_img img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.basket_inner table tbody td.left {
+  text-align: left;
+  padding-left: 10px;
+}
+.basket_inner table tfoot {
+  border-bottom: 1px solid #222;
+  text-align: right;
+}
+.basket_inner table tfoot td {
+  vertical-align: middle;
+  padding: 20px 0;
+}
+
+.btn_area {
+  padding-top: 50px;
+  text-align: center;
+}
+.btn_area .btn_basic {
+  display: inline-block;
+  background-color: #222;
+  color: #ffffff;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: 200px;
+  text-align: center;
+}/*# sourceMappingURL=basket.css.map */

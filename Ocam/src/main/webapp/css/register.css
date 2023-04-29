@@ -1,0 +1,102 @@
+.register {
+  width: 100%;
+}
+
+.register_inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+.register_inner h2 {
+  font-family: "BebasNeue";
+  text-align: center;
+  font-size: 64px;
+}
+.register_inner form {
+  width: 30%;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+.register_inner form .input_box {
+  width: 100%;
+  padding-bottom: 40px;
+  position: relative;
+}
+.register_inner form .input_box .title {
+  font-size: 13px;
+}
+.register_inner form .input_box input {
+  width: 100%;
+  border: none;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.register_inner form .input_box input:focus {
+  outline: none;
+}
+.register_inner form .input_box .addr_number {
+  width: 30%;
+}
+.register_inner form .input_box .input_phone {
+  width: 30.4%;
+  text-align: center;
+}
+.register_inner form .input_box .warning_email,
+.register_inner form .input_box .warning_password {
+  position: absolute;
+  color: rgb(251, 67, 67);
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+.register_inner form .agree {
+  padding-bottom: 30px;
+  color: #444;
+}
+.register_inner form .agree .essential, .register_inner form .agree .select {
+  padding: 5px 0;
+  font-size: 14px;
+}
+.register_inner form .agree .essential a, .register_inner form .agree .select a {
+  float: right;
+  color: #111;
+}
+.register_inner form .agree .indent {
+  text-indent: 20px;
+  position: relative;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.register_inner form .agree .indent a {
+  text-decoration: underline;
+  font-size: 12px;
+  color: rgb(120, 120, 120);
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+.register_inner form .agree .essential ul, .register_inner form .agree .select ul {
+  display: none;
+}
+.register_inner form .btn_member {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #ddd;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 0;
+  cursor: default;
+}
+
+.red_star {
+  color: red;
+}
+
+.btn_addr {
+  display: inline-block;
+  text-align: center;
+  color: #666;
+  padding: 10px;
+  font-size: 14px;
+}/*# sourceMappingURL=register.css.map */

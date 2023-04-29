@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../font/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+}
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-10%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-10%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(10%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(10%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@-webkit-keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@-webkit-keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.arrow {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  background-color: rgb(8, 106, 95);
+  border-radius: 10px;
+}
+.arrow svg {
+  display: block;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.top_menu {
+  width: 100%;
+}
+
+.top_menu_inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 5px 0 15px 0;
+}
+.top_menu_inner ul {
+  float: right;
+}
+.top_menu_inner li {
+  float: left;
+  margin-right: 20px;
+}
+.top_menu_inner li a {
+  font-size: 12px;
+  color: rgb(120, 120, 120);
+}
+.top_menu_inner li:last-child {
+  margin-right: 0;
+}
+
+.middle_menu_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.middle_menu_inner h1 {
+  display: inline-block;
+  font-family: "BebasNeue";
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+.middle_menu_inner h1 a {
+  color: #222;
+}
+.middle_menu_inner ul {
+  float: right;
+  padding-top: 18px;
+}
+.middle_menu_inner ul li {
+  float: left;
+  margin-right: 20px;
+}
+.middle_menu_inner ul li:last-child {
+  margin-right: 0;
+}
+.middle_menu_inner ul li a {
+  font-size: 18px;
+  color: #222;
+}
+
+.bottom_menu_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.bottom_menu_inner ul {
+  padding: 30px 0 10px 0;
+}
+.bottom_menu_inner ul li {
+  float: left;
+  margin-right: 20px;
+}
+.bottom_menu_inner ul li a {
+  font-size: 16px;
+  padding-top: 6px;
+  color: #222;
+}
+.bottom_menu_inner ul li a:hover {
+  border-top: 2px solid #222;
+}
+
+.notice {
+  background-color: rgb(8, 106, 95);
+}
+
+.notice_inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.notice_inner a {
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  color: #fff;
+}/*# sourceMappingURL=header.css.map */

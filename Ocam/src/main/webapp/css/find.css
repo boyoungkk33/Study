@@ -1,0 +1,70 @@
+.find {
+  width: 100%;
+}
+
+.find_inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+.find_inner h2 {
+  font-family: "BebasNeue";
+  text-align: center;
+  font-size: 64px;
+}
+.find_inner form {
+  width: 30%;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+.find_inner form .input_box {
+  width: 100%;
+  padding-bottom: 40px;
+  position: relative;
+}
+.find_inner form .input_box .title {
+  font-size: 13px;
+}
+.find_inner form .input_box input {
+  width: 100%;
+  border: none;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.find_inner form .input_box input:focus {
+  outline: none;
+}
+.find_inner form .input_box .warning_email,
+.find_inner form .input_box .warning_password {
+  position: absolute;
+  color: rgb(251, 67, 67);
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+.find_inner form .btn_member {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #ddd;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 0;
+  cursor: default;
+}
+.find_inner form ul {
+  padding-top: 20px;
+  text-align: center;
+}
+.find_inner form ul li {
+  display: inline-block;
+  padding: 0 14px 0 10px;
+  border-right: 1px solid #ddd;
+}
+.find_inner form ul li:last-child {
+  border-right: none;
+}
+.find_inner form ul li a {
+  font-size: 13px;
+  color: #666;
+}/*# sourceMappingURL=find.css.map */

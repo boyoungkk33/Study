@@ -1,0 +1,105 @@
+.event {
+  width: 100%;
+}
+
+.event_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.event_inner h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+}
+.event_inner form {
+  float: right;
+  font-size: 13px;
+  padding: 60px 0 10px 0;
+}
+.event_inner form label {
+  color: #555;
+}
+.event_inner form .search_bar {
+  display: inline-block;
+}
+.event_inner form .search_bar input {
+  border: 1px solid #ddd;
+  width: 200px;
+  padding: 5px 5px;
+  margin-left: 10px;
+}
+.event_inner form .search_bar input:focus {
+  outline: none;
+}
+.event_inner form .search_bar svg {
+  float: right;
+  width: 24px;
+  height: 27.5px;
+  padding: 5px;
+  color: #555;
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.event_inner table {
+  width: 100%;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.event_inner table thead {
+  font-weight: bold;
+}
+.event_inner table thead tr {
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #ddd;
+}
+.event_inner table thead th {
+  padding: 20px 0;
+}
+.event_inner table tbody {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+.event_inner table tbody td {
+  padding: 13px 0;
+  border-bottom: 1px solid #ddd;
+}
+.event_inner table tbody td a {
+  color: #555;
+}
+.event_inner table tbody td.left {
+  text-align: left;
+}
+.event_inner .paging {
+  padding-top: 20px;
+  position: relative;
+}
+.event_inner .paging .paging_list {
+  text-align: center;
+}
+.event_inner .paging .paging_list li {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+.event_inner .paging .paging_list li a {
+  color: rgb(120, 120, 120);
+}
+.event_inner .paging .paging_list li a:hover {
+  color: #222;
+}
+.event_inner .paging .btn_black {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  background-color: #222;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: 100px;
+  text-align: center;
+}/*# sourceMappingURL=event.css.map */
